@@ -96,12 +96,12 @@ const App = () => {
 
   return (
     <>
-    <h1> Identification Card.js</h1>
+    <h1> Identification Card.js.</h1>
     <div>
       {persons.map(({fullname, location, phone, email, image, position}, index) => (
        <MyCard key={index}
        fullname={fullname}
-       location={location}
+       location={location} 
        phone={phone}
        email={email}
        image={image}
